@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saleh Mohamed • Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="logo">SALEH</div>
+
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="toggle-btn" onclick="toggleTheme()">🌙</div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="title">Hi, I’m <span>Saleh Mohamed</span></h1>
+            <p class="subtitle">
+                Full-Stack Developer • Frontend (React) • Backend (Node.js) • UI/UX Designer
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn">Download Resume</a>
+                <a href="#contact" class="btn-outline">Let's Work Together</a>
+            </div>
+        </div>
+<img src="../photo/WhatsApp Image 2025-12-06 at 23.12.32_7db118a6.jpg" class="hero-img" alt="">
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section id="resume" class="resume-section">
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume-grid">
+            <div class="resume-box">
+                <h3>Education</h3>
+                <p><strong>Bachelor of Computer Science</strong></p>
+                <p>Suez Canal University — 2022 to 2026</p>
+            </div>
+
+            <div class="resume-box">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript, React</li>
+                    <li>Node.js, Express, MongoDB</li>
+                    <li>C, C++, Java, PHP</li>
+                    <li>Git, GitHub, Figma</li>
+                </ul>
+            </div>
+
+            <div class="resume-box">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Frontend Development — ITI</li>
+                    <li>UI/UX — Creativa Ismailia</li>
+                    <li>Backend — Creativa (Completed)</li>
+                    <li>MEAN Stack — NTI (In Progress)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>To-Do List Web App</h3>
+                <p>Simple and clean task manager.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Gaming React Website</h3>
+                <p>Landing page + dynamic UI.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Gym UI/UX Design</h3>
+                <p>Modern fitness design prototype.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List UI/UX</h3>
+                <p>Minimalistic mobile-first concept.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
